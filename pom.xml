@@ -130,12 +130,21 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
-    <dependency>
+    <!-- <dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-spring-config</artifactId>
             <version>${mule.version}</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
+        
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.1.9.RELEASE</version>
+    <scope>provided</scope>
+</dependency>
+        
     </dependencies>
 
 	<repositories>
