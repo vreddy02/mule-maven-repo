@@ -1,4 +1,4 @@
-package com.mulesoft.training;
+package com.mycompany;
 
 import static org.junit.Assert.*;
 
