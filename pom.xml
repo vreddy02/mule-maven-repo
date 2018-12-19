@@ -43,6 +43,7 @@
 					<password>Capture8390</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
+					<application>target/${project.artifactId}-${project.version}.zip</application>
 					<applicationName>helloworld</applicationName>
 					<environment>Sandbox</environment>
 				</configuration>
