@@ -19,7 +19,7 @@
 
 	<build>
 		<plugins>
-			<!-- <plugin>
+			 <plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
 				<version>${mule.tools.version}</version>
@@ -27,7 +27,7 @@
 				<configuration>
 					<copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
-			</plugin> -->
+			</plugin> 
 
 			<!-- added this plugin to deploy to the cloud hub -->
 
